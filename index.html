@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paulo Roberto CV</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,15 +28,15 @@
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li><i class="fa fa-phone"></i>+55 51 99944.2701</li>
+                        <li><i class="fa fa-phone"></i><a href="tel:+5551999442701"></a>+55 51 99944.2701</a></li>
                         <li><i class="fa fa-envelope"></i>paulovwh@gmail.com</li>
                         <!-- <li><i class="fa fa-globe"></i>www.paulo.com</li> -->
-                        <li><i class="fa fa-github"></i>paulorlsouza</li>
+                        <li><i class="fa fa-github"></i><a href="https://paulorlsouza.github.io" target="_blank">paulorlsouza</a></li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
-                    <ul>
+                    <ul type="square">
                         <li><p>HTML5</p></li>
                         <li><p>CSS3</p></li>
                         <li><p>JavaScript</p></li>
@@ -35,6 +44,11 @@
                         <li><p>PHP/MySQL</p></li>
                         <li><p>CorelDRAW</p></li>
                         <li><p>Photoshop</p></li>
+                    </ul>
+                    <p class="left-title">Idiomas</p>
+                    <ul type="square">
+                        <li><p>Português <span>(Nativo)</span></p></li>
+                        <li><p>Inglês <span>(Básico)</span></p></li>
                     </ul>
                 </div>
             </section>
@@ -44,54 +58,59 @@
                     <section class="about gap">
                         <div class="right-title">Sobre Mim</div>
                         <p class="about-me-contents">
-                            Olá sou o Paulo Roberto.<br>
+                            Olá sou o Paulo Roberto!<br>
                             Trabalho atualmente com Design Gráfico.<br>
                             Sou formado em Ciência da Computação - Bacharelado, pela faculdade UNISINOS.<br>
                             Já fiz alguns trabalhos utilizando HTML, CSS, JavaScript, PHP e MySQL.<br>
+                            Quero voltar para área de programação como desenvolvedor Front-end. Sou uma pessoa <strong>criativa</strong>, com <strong>boa comunicação</strong>, <strong>capacidade de resolver problemas</strong>, <strong>organizado</strong> e tenho <strong>conhecimentos em design</strong>.
                         </p>
                     </section>
+                    <section class="experience gap">
+                        <div class="right-title">Experiência</div>
+                        <div class="experience-contents">
+                            <div class="exp-left">
+                                <p class="exp-company-name">Gráfica Souza</p>
+                                <p class="exp-time-period">2013-2022</p>
+                            </div>
+                            <div class="exp-right">
+                                <p class="exp-position">Designer Gráfico</p>
+                                <p class="exp-desc">
+                                    Desenvolvimento de layouts para panfletos, encartes, banners, embalagens, anúncios, logotipos, entre outros materiais gráficos assim como diagramação de revistas e jornais.
+                                <br><br>
+                                    Para o desenvolvimento dos layouts eram feitas reuniões para entender o objetivo do cliente. Juntando todos os requisitos informados pelo cliente era criado um primeiro layout. Sempre trabalhando com <em>feedback</em> do cliente nas interações de cada layout para atingir o objetivo e aprovação do material.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="education gap">
+                        <div class="right-title">Formação Acadêmica</div>                   
+                        <div class="education-contents">
+                            <div class="education-left">
+                                <p class="education-school-name">UNISINOS</p>
+                                <p class="educationp-time-period">2001~2011</p>
+                            </div>
+                            <div class="education-right">
+                                <p class="education-subject">Ciência da Computação - Bacharelado</p>
+                                <p class="education-desc">Graduação em Ciência da Computação - Bacharelado</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="awards gap">
+                        <div class="right-title">Cursos</div>
+                        <div class="awards-contents">
+                            <div class="awards-left">
+                                <p class="awards-company-name">EBAC</p>
+                                <p class="awards-time-period">Novembro/2022</p>
+                            </div>
+                            <div class="awards-right">
+                                <p class="awards-name">Jornada DEV: Seu primeiro projeto front-end em 7 dias!</p>
+                                <p class="awards-desc">
+                                    Melhores práticas de desenvolvimento web, trabalhando com HTML, CSS e GitHub.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <section class="experience gap">
-                    <div class="right-title">Experiência</div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Gráfica Souza</p>
-                            <p class="exp-time-period">2013-2022</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">Designer Gráfico</p>
-                            <p class="exp-desc">Criar panfletos, encartes, banners, embalagens, anúncios, logotipos, entre outros materiais gráfico assim como diagramação de revistas e jornais.</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="education gap">
-                    <div class="right-title">Formação Acadêmica</div>                   
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">UNISINOS</p>
-                            <p class="educationp-time-period">2001~2011</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Ciência da Computação - Bacharelado</p>
-                            <p class="education-desc">Graduação em Ciência da Computação - Bacharelado</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="awards gap">
-                    <div class="right-title">Cursos</div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">EBAC</p>
-                            <p class="awards-time-period">Novembro/2022</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Jornada DEV: Seu primeiro projeto front-end em 7 dias!</p>
-                            <p class="awards-desc">
-                                Melhores práticas de desenvolvimento web, trabalhando com HTML, CSS e GitHub.
-                            </p>
-                        </div>
-                    </div>
-                </section>
             </section>
     </main>
 </body>
